@@ -1,0 +1,16 @@
+.main-content {
+  margin-left: var(--sidebar-width);
+  min-height: 100vh;
+  padding: 40px;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+    padding: 24px;
+  }
+
+  .sidebar {
+    display: none;
+  }
+}
